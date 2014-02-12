@@ -1,0 +1,106 @@
+﻿c cham.kmn
+c 
+c Cham 0.2
+c 
+c http://www.openroad.net.au/languages/cham
+c 
+c [[%ask4:Intro]]
+c 
+c This keyboard source file has been developed to be used with
+c a commercial program Keyman Desktop. Which is available from
+c http://www.tavultesoft.com/
+c 
+c This keyboard layout is free software: you can redistribute it and/or modify
+c it under the terms of the GNU General Public License as published by
+c the Free Software Foundation, version 3 of the License.
+c 
+c This keyboard layout is distributed in the hope that it will be useful,
+c but WITHOUT ANY WARRANTY; without even the implied warranty of
+c MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+c GNU General Public License for more details.
+c 
+c You should have received a copy of the GNU General Public License
+c along with this program.  If not, see <http://www.gnu.org/licenses/>.
+c 
+c Keyboard documentation is licensed under the Creative Commons
+c Attribution-Non-Commercial-Share Alike 3.0 Australia License.
+c To view a copy of this licence, visit
+c http://creativecommons.org/licenses/by-nc-sa/3.0/au/
+c 
+c This keyboard source file was developed by Public Libraries and Community Engagement,
+c a division of the State Library of Victoria as part of
+c the Open Road project’s Language enablement initiative.
+c 
+c 
+c Andrew Cunningham    2014-01-11
+c andrewc AT vicnet.net.au
+
+store(&VERSION) '8.0'
+store(&NAME) 'Cham'
+store(&COPYRIGHT) '© 2013 State Library of Victoria'
+store(&MESSAGE) 'Cham keyboard layout - published under the GNU General Public License, Version 3'
+store(&ETHNOLOGUECODE) 'cjm'
+store(&BITMAP) 'cham.png'
+store(&VISUALKEYBOARD) 'cham.kvk'
+c $keymanweb: store(&KMW_HELPFILE) '[[%w1]]_kmw_help.html'
+c $keymanweb: store(&KMW_EMBEDJS) '[[%w1]]_embed.js'
+
+
+begin Unicode > use(constraints)
+
+
+c Independant vowels (IV) and consonants (Cons) and final consonants (FC)
+store(IV) U+AA00 U+AA01 U+AA02 U+AA03 U+AA04 U+AA05
+c a ; ^ ! %
+store(IV_Key)
+store(Cons) U+AA06 U+AA07 U+AA08 U+AA09 U+AA0A U+AA0B U+AA0C U+AA0D U+AA0E U+AA0F \
+           U+AA10 U+AA11 U+AA12 U+AA13 U+AA14 U+AA15 U+AA16 U+AA17 U+AA18 U+AA19 \
+           U+AA1A U+AA1B U+AA1C U+AA1D U+AA1E U+AA1F U+AA20 U+AA21 U+AA22 U+AA23 \
+           U+AA24 U+AA25 U+AA26 U+AA27 U+AA28     
+store(Cons_Key)
+           
+store(IVC) outs(IV) outs(Cons)
+store(IVC_Key) outs(IV_Key) outs(Cons_Key)
+
+store(FC) U+AA40 U+AA41 U+AA42 U+AA43 U+AA44 U+AA45 U+AA46 U+AA47 U+AA48 U+AA49 U+AA4A U+AA4B U+AA4C U+AA4D U+AA25
+store(FC_Key)   
+
+c Consonant sign -ra
+store(CSra) U+AA34
+store(CSra_Key) 
+
+c Consonant sign -la
+store(CSla) U+AA35
+store(CSla_Key)
+
+c Consonant signs -ya and -wa
+store(CSO) U+AA33 U+AA36
+store(CSO_Key)
+
+c All Consonant signs
+Store(AllCS) outs(CSra) outs(CSla) outs(CSO)
+Store(AllCS_Key) outs(CSra_Key) outs(CSla_Key) outs(CSO_Key)
+
+c Left-side dependant vowels
+store(DVL) U+AA2F U+AA30
+store(DVL_Key) 
+
+c Other dependant vowels
+store(DVO) U+AA2A U+AA2B U+AA2C U+AA2D U+AA2E U+AA31 U+AA32
+store(DVO_Key) 
+
+c Vowel lengthener
+store(VL) U+AA29
+store(VL_Key)
+
+
+
+
+
+group(constraints) using keys
+
+nomatch > use(main)
+
+group(main) using keys    
+
+group(reorder)

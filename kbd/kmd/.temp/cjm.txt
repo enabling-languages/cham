@@ -1,0 +1,39 @@
+C Independant vowels and consonants
+store(IVC_Char) U+AA00 U+AA01 U+AA02 U+AA03 U+AA04 U+AA05 U+AA06 U+AA07 U+AA08 U+AA09 U+AA0A \
+                         U+AA0B U+AA0C U+AA0D U+AA0E U+AA0F U+AA10 U+AA11 U+AA12 U+AA13 U+AA14 U+AA15 \
+                         U+AA16 U+AA17 U+AA18 U+AA19 U+AA1A U+AA1B U+AA1C U+AA1D U+AA1E U+AA1F U+AA20 \
+                         U+AA21 U+AA22 U+AA23 U+AA24 U+AA25 U+AA26 U+AA27 U+AA28
+
+c Consonant sign -ra 
+store(CSra_Char) U+AA34
+store(CSra_Key)
+
+c Consonant sign -la
+store(CSla_Char) U+AA35
+store(CSla_Key)
+
+c Consonant signs -ya and -wa
+store(OCS_Char) U+AA33 U+AA36
+store(OCS_Key)
+
+c All Consonant signs
+Store(AllCS_Char) outs(CSra_Char) outs(CSla_Char) outs(OCS_Char)
+Store(AllCS_Key) outs(CSra_Key) outs(CSla_Key) outs(OCS_Key)
+
+c Left-side dependant vowels
+store(LDV_Char) U+AA2F U+AA30
+store(LDV_Key) 
+
+c Other dependant vowels
+store(ODV_Char) U+AA2A U+AA2B U+AA2C U+AA2D U+AA2E U+AA31 U+AA32
+store(ODV_Key) 
+
+c Vowel lengthener
+store(VL_Char) U+AA29
+store(VL_Key) 
+
+c Final consonants
+store(FC_Char) U+AA40 U+AA41 U+AA42 U+AA43 U+AA44 U+AA45 U+AA46 U+AA47 U+AA48 U+AA49 U+AA4A  \
+                        U+AA4B U+AA4C U+AA4D U+AA25
+store(FC_Key) 
+
