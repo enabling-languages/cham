@@ -4,7 +4,9 @@
 
 ### Eastern Cham glyphs
 
-* [Noto Sans Cham](http://www.khnews.info/cham/NotoSansCham-Regular.ttf)
+* [Noto Sans Cham](https://code.google.com/p/noto/source/browse/trunk/fonts/individual/)
+
+Use unhinted fonts for Android and Mac, and use hinted fonts for other platforms.
 
 ### Western Cham glyphs
 
