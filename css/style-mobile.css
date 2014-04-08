@@ -265,7 +265,7 @@
 	
 	#footer-wrapper
 	{
-		padding: 4em 20px 3em 20px;
+		/* padding: 4em 20px 3em 20px; */
 	}
 
 /*********************************************************************************/
@@ -375,6 +375,6 @@
 
 	#copyright
 	{
-		margin-top: 2em;
+		/* margin-top: 2em; */
 		padding-top: 2em;
 	}

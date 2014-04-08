@@ -136,12 +136,12 @@
 	
 	#main-wrapper
 	{
-		padding: 6em 0 6em 0;
+		padding: 0;
 	}
 	
 	#footer-wrapper
 	{
-		padding: 6em 0 8em 0;
+		/* padding: 2em 0 2em 0; */
 	}
 
 /*********************************************************************************/
@@ -375,6 +375,6 @@
 
 	#copyright
 	{
-		margin-top: 6em;
+		/* margin-top: 6em; */
 		padding-top: 4em;
 	}
