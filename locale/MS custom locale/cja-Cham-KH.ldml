@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ldml>
+  <identity>
+    <version number="1.1">ldml version 1.1</version>
+    <generation date="2016-01-09" />
+    <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+      <msLocale:cultureInfoVersion type="3.0" />
+      <msLocale:cultureAndRegionInfoName type="cja-Cham-KH" />
+      <msLocale:geoId>40</msLocale:geoId>
+      <msLocale:countryCode>855</msLocale:countryCode>
+      <msLocale:parentName type="cja-Cham" />
+      <msLocale:languageNameAbbr type="KHM" />
+      <msLocale:languageIsoName type="threeLetters">khm</msLocale:languageIsoName>
+      <msLocale:languageIsoName type="twoLetters">km</msLocale:languageIsoName>
+      <msLocale:nativeName type="ភាសាខ្មែរ (កម្ពុជា)" />
+      <msLocale:regionEnglishName type="Cambodia" />
+      <msLocale:regionNativeName type="កម្ពុជា" />
+      <msLocale:regionIsoName type="threeLetters">KHM</msLocale:regionIsoName>
+      <msLocale:regionIsoName type="twoLetters">KH</msLocale:regionIsoName>
+      <msLocale:regionWindowsName type="threeLetters">KHM</msLocale:regionWindowsName>
+      <msLocale:englishName type="Western Cham (Cambodia)" />
+      <msLocale:sortName type="km-KH" />
+      <msLocale:sortGuid type="{0000000C-57EE-1E5C-00B4-D0000BB1E11E}" />
+      <msLocale:codePagesName type="km-KH" />
+      <msLocale:englishLanguage type="Western Cham" />
+      <msLocale:nativeLanguage type="ភាសាខ្មែរ" />
+      <msLocale:keyboardsToInstall type="0453:00000453;0409:00000409" />
+    </special>
+  </identity>
+  <layout>
+    <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+      <msLocale:direction type="left-to-right" />
+    </special>
+  </layout>
+  <characters>
+    <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+      <msLocale:openTypeLanguageTag>KHM </msLocale:openTypeLanguageTag>
+      <msLocale:consoleFallbackName type="en-US" />
+      <msLocale:fontSignature>
+        <msLocale:unicodeRanges>
+          <msLocale:range type="80" />
+        </msLocale:unicodeRanges>
+        <msLocale:defaultCodePages>
+          <msLocale:ansiCodePage>
+            <msLocale:codePage type="0" />
+          </msLocale:ansiCodePage>
+          <msLocale:ansiOemCodePage />
+          <msLocale:oemCodePage>
+            <msLocale:codePage type="1" />
+          </msLocale:oemCodePage>
+          <msLocale:macCodePage>
+            <msLocale:codePage type="2" />
+          </msLocale:macCodePage>
+          <msLocale:ebcdicCodePage>
+            <msLocale:codePage type="500" />
+          </msLocale:ebcdicCodePage>
+        </msLocale:defaultCodePages>
+        <msLocale:codePages>
+          <msLocale:ansiCodePage />
+          <msLocale:ansiOemCodePage />
+          <msLocale:oemCodePage />
+        </msLocale:codePages>
+      </msLocale:fontSignature>
+      <msLocale:scripts>
+        <msLocale:script type="Khmr" />
+      </msLocale:scripts>
+    </special>
+  </characters>
+  <measurement>
+    <measurementSystem type="metric" />
+    <paperSize>
+      <height>297</height>
+      <width>210</width>
+    </paperSize>
+  </measurement>
+  <dates>
+    <calendars>
+      <default type="Gregorian" />
+      <calendar type="Gregorian">
+        <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+          <msLocale:calendarNativeName type="សុរិយាគតិ" />
+        </special>
+        <months>
+          <monthContext type="format">
+            <monthWidth type="wide">
+              <month type="1">មករា</month>
+              <month type="2">កុម្ភៈ</month>
+              <month type="3">មិនា</month>
+              <month type="4">មេសា</month>
+              <month type="5">ឧសភា</month>
+              <month type="6">មិថុនា</month>
+              <month type="7">កក្កដា</month>
+              <month type="8">សីហា</month>
+              <month type="9">កញ្ញា</month>
+              <month type="10">តុលា</month>
+              <month type="11">វិច្ឆិកា</month>
+              <month type="12">ធ្នូ</month>
+              <month type="13" />
+            </monthWidth>
+            <monthWidth type="abbreviated">
+              <month type="1">១</month>
+              <month type="2">២</month>
+              <month type="3">៣</month>
+              <month type="4">៤</month>
+              <month type="5">៥</month>
+              <month type="6">៦</month>
+              <month type="7">៧</month>
+              <month type="8">៨</month>
+              <month type="9">៩</month>
+              <month type="10">១០</month>
+              <month type="11">១១</month>
+              <month type="12">១២</month>
+              <month type="13" />
+            </monthWidth>
+            <monthWidth type="genitive">
+              <month type="1">មករា</month>
+              <month type="2">កុម្ភៈ</month>
+              <month type="3">មិនា</month>
+              <month type="4">មេសា</month>
+              <month type="5">ឧសភា</month>
+              <month type="6">មិថុនា</month>
+              <month type="7">កក្កដា</month>
+              <month type="8">សីហា</month>
+              <month type="9">កញ្ញា</month>
+              <month type="10">តុលា</month>
+              <month type="11">វិច្ឆិកា</month>
+              <month type="12">ធ្នូ</month>
+              <month type="13" />
+            </monthWidth>
+            <monthWidth type="genitiveAbbreviated">
+              <month type="1">១</month>
+              <month type="2">២</month>
+              <month type="3">៣</month>
+              <month type="4">៤</month>
+              <month type="5">៥</month>
+              <month type="6">៦</month>
+              <month type="7">៧</month>
+              <month type="8">៨</month>
+              <month type="9">៩</month>
+              <month type="10">១០</month>
+              <month type="11">១១</month>
+              <month type="12">១២</month>
+              <month type="13" />
+            </monthWidth>
+          </monthContext>
+        </months>
+        <days>
+          <dayContext type="format">
+            <dayWidth type="wide">
+              <day type="sun">ថ្ងៃអាទិត្យ</day>
+              <day type="mon">ថ្ងៃច័ន្ទ</day>
+              <day type="tue">ថ្ងៃអង្គារ</day>
+              <day type="wed">ថ្ងៃពុធ</day>
+              <day type="thu">ថ្ងៃព្រហស្បតិ៍</day>
+              <day type="fri">ថ្ងៃសុក្រ</day>
+              <day type="sat">ថ្ងៃសៅរ៍</day>
+            </dayWidth>
+            <dayWidth type="abbreviated">
+              <day type="sun">អាទិ.</day>
+              <day type="mon">ច.</day>
+              <day type="tue">អ.</day>
+              <day type="wed">ពុ</day>
+              <day type="thu">ព្រហ.</day>
+              <day type="fri">សុ.</day>
+              <day type="sat">ស.</day>
+            </dayWidth>
+            <dayWidth type="shortest">
+              <day type="sun">អា</day>
+              <day type="mon">ច</day>
+              <day type="tue">អ</day>
+              <day type="wed">ពុ</day>
+              <day type="thu">ព</day>
+              <day type="fri">សុ</day>
+              <day type="sat">ស</day>
+            </dayWidth>
+          </dayContext>
+        </days>
+        <week>
+          <firstDay day="sun" />
+          <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+            <msLocale:weekRule type="firstFullWeek" />
+          </special>
+        </week>
+        <am>ព្រឹក</am>
+        <pm>ល្ងាច</pm>
+        <eras>
+          <eraNames>
+            <era type="1">ចន្ទគតិ</era>
+          </eraNames>
+          <eraAbbr>
+            <era type="1">ចន្ទគតិ</era>
+          </eraAbbr>
+        </eras>
+        <dateFormats>
+          <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+            <msLocale:dateFormatLength type="long">
+              <msLocale:default type="0" />
+              <msLocale:dateFormat type="0">
+                <msLocale:pattern>d MMMM yyyy</msLocale:pattern>
+              </msLocale:dateFormat>
+              <msLocale:dateFormat type="1">
+                <msLocale:pattern>ddd d MMMM yyyy</msLocale:pattern>
+              </msLocale:dateFormat>
+            </msLocale:dateFormatLength>
+            <msLocale:dateFormatLength type="short">
+              <msLocale:default type="0" />
+              <msLocale:dateFormat type="0">
+                <msLocale:pattern>dd/MM/yy</msLocale:pattern>
+              </msLocale:dateFormat>
+              <msLocale:dateFormat type="1">
+                <msLocale:pattern>yyyy-MM-dd</msLocale:pattern>
+              </msLocale:dateFormat>
+            </msLocale:dateFormatLength>
+            <msLocale:yearMonthFormat>
+              <msLocale:default type="0" />
+              <msLocale:yearMonth type="0">
+                <msLocale:pattern>'ខែ' MM 'ឆ្នាំ' yyyy</msLocale:pattern>
+              </msLocale:yearMonth>
+            </msLocale:yearMonthFormat>
+            <msLocale:lockScreenFormat>
+              <msLocale:pattern>dddd d MMMM</msLocale:pattern>
+            </msLocale:lockScreenFormat>
+            <msLocale:monthDay>
+              <msLocale:pattern>d MMMM</msLocale:pattern>
+            </msLocale:monthDay>
+          </special>
+        </dateFormats>
+        <timeFormats>
+          <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+            <msLocale:timeFormatLength type="long">
+              <msLocale:default type="0" />
+              <msLocale:timeFormat type="0">
+                <msLocale:pattern>HH:mm:ss</msLocale:pattern>
+              </msLocale:timeFormat>
+            </msLocale:timeFormatLength>
+            <msLocale:timeFormatLength type="short">
+              <msLocale:default type="0" />
+              <msLocale:timeFormat type="0">
+                <msLocale:pattern>H:mm</msLocale:pattern>
+              </msLocale:timeFormat>
+            </msLocale:timeFormatLength>
+            <msLocale:durationFormats>
+              <msLocale:default type="0" />
+              <msLocale:durationFormat type="0">
+                <msLocale:pattern>h:mm:ss</msLocale:pattern>
+              </msLocale:durationFormat>
+            </msLocale:durationFormats>
+          </special>
+        </timeFormats>
+      </calendar>
+      <calendar type="Gregorian Transliterated English">
+        <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+          <msLocale:calendarNativeName type="គ្រេកហ្គ័រីយាន" />
+        </special>
+      </calendar>
+      <calendar type="Gregorian US">
+        <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+          <msLocale:calendarNativeName type="Soriyeakitek" />
+        </special>
+      </calendar>
+    </calendars>
+  </dates>
+  <numbers>
+    <symbols>
+      <list>,</list>
+      <decimal>.</decimal>
+      <group>,</group>
+      <percentSign>%</percentSign>
+      <infinity type="positive">អនន្ត</infinity>
+      <infinity type="negative">-- អនន្ត</infinity>
+      <nan>NAN</nan>
+      <PlusSign />
+      <minusSign>-</minusSign>
+      <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+        <msLocale:currencyDecimalSeparator>.</msLocale:currencyDecimalSeparator>
+        <msLocale:currencyGroupSeparator>,</msLocale:currencyGroupSeparator>
+      </special>
+    </symbols>
+    <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+      <msLocale:decimalDigits>2</msLocale:decimalDigits>
+      <msLocale:negativePattern type="2" />
+      <msLocale:currencyDecimalDigits type="2" />
+      <msLocale:currencyPositivePattern type="1" />
+      <msLocale:currencyNegativePattern type="5" />
+      <msLocale:percentNegativePattern type="1" />
+      <msLocale:percentPositivePattern type="1" />
+      <msLocale:leadingZero type="yes" />
+      <msLocale:groupSizes type="0">3</msLocale:groupSizes>
+      <msLocale:groupSizes type="1">0</msLocale:groupSizes>
+      <msLocale:currencyGroupSizes type="0">3</msLocale:currencyGroupSizes>
+      <msLocale:nativeDigits type="0">០</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="1">១</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="2">២</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="3">៣</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="4">៤</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="5">៥</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="6">៦</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="7">៧</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="8">៨</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="9">៩</msLocale:nativeDigits>
+      <msLocale:digitSubstitution type="nativeNational" />
+    </special>
+    <currencies>
+      <currency type="default">
+        <symbol>៛</symbol>
+        <displayName>x179Aៀល</displayName>
+        <special xmlns:msLocale="http://schemas.microsoft.com/globalization/2004/08/carib/ldml">
+          <msLocale:isoCurrency>KHR</msLocale:isoCurrency>
+          <msLocale:currencyEnglishName>Riel</msLocale:currencyEnglishName>
+        </special>
+      </currency>
+    </currencies>
+  </numbers>
+</ldml>

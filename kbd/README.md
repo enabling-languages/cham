@@ -1,9 +1,17 @@
-Cham Unicode Keyboard
-============
+# Cham Unicode Keyboards
 
-KMD: Keyman source files and packages for Visual or Logical input using Keyman Desktop, KeymanWeb, Keyman Touch and KMFL (Windows, Linux, Android and iOS7+)
 
-Keymagic: Visual input. (Windows, Linux and MacOS)
+## Keyboard layouts
 
-MSKLC: Logical layout developed using Miscrosoft Keyboard Layout Creator (Windows)
+* cja-Cham-KH: Western Cham (Cambodia) keyboard layout (Cham script)
+
+## Files
+
+KMN: Source files and packages for Visual or Logical input using Keyman Desktop, KeymanWeb, Keyman Touch and KMFL (Windows, Linux, Android and iOS7+)
+
+Keymagic: Keymagic layout files (Windows, Linux and MacOS).
+
+MSKLC: Keyboards using Win32 input framework, created using Miscrosoft Keyboard Layout Creator (Windows)
+
+OSX: OSX .keylayout XML files, inclusing bundles (incon and keyboard layout)
 

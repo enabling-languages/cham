@@ -1,0 +1,53 @@
+GUID for Western Cham font installer
+
+Product:  87F8B329-9603-4188-9539-0709A8A3E886 (needs to be unique with each package)
+Installation package:  D191EC41-A738-47CA-BA4C-BD9A05874E37
+UpgradeCode: 370C4A94-0060-49F0-BB8B-6927671B50B9
+
+// version - major.minor.build
+
+https://www.firegiant.com/wix/tutorial/getting-started/the-software-package/
+
+<?xml version='1.0' encoding='windows-utf-8'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+    <Product Name='Cham Fonts 0.1.0' Manufacturer='Enabling Languages OS'
+        Id='YOURGUID-86C7-4D14-AEC0-86416A69ABDE' 
+        UpgradeCode='370C4A94-0060-49F0-BB8B-6927671B50B9'
+        Language='1033' Codepage='1252' Version='1.0.0'>
+    <Package Id='*' Keywords='Installer' Description="Western Cham Fonts 0.1.0 Installer"
+        Comments='Packaged by teh Ebabling Langauges Opensource Initiative' Manufacturer='Enabling Languages OS.'
+        InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="87F8B329-9603-4188-9539-0709A8A3E886" Name="Western Cham Font Install" Language="1033"
+Version="0.1.0" Manufacturer="Stefan Weber" UpgradeCode="370C4A94-0060-49F0-BB8B-6927671B50B9">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <!-- Font Dateien in eine Cabinet Datei komprimieren (Cabinet) und anschliessend die Cabinet Datei in die
+MSI Datei integrieren -->
+
+    <Media Id="1" Cabinet="FontFiles.cab" EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+
+      <!-- FontsFolder ist eine Standard Property -->
+      <Directory Id="FontsFolder" />
+
+    </Directory>
+
+    <DirectoryRef Id="FontsFolder">
+      <Component Id="InstallFonts" Guid="D191EC41-A738-47CA-BA4C-BD9A05874E37">
+        <File Id="Cham_OI_Kul.ttf" Source="fonts\Cham_OI_Kul.ttf" TrueType="yes" />
+        <File Id="Cham_OI_Kulbleng.ttf" Source="fonts\Cham_OI_Kulbleng.ttf" TrueType="yes" />
+        <File Id="Cham_OI_Tangin.ttf" Source="fonts\Cham_OI_Tangin.ttf" TrueType="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="FontsInstallation" Title="Install and Register Western Cham Fonts" Level="1">
+      <ComponentRef Id="InstallFonts"/>
+    </Feature>
+  </Product>
+</Wix>
