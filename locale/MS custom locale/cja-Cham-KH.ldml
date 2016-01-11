@@ -288,16 +288,16 @@
       <msLocale:groupSizes type="0">3</msLocale:groupSizes>
       <msLocale:groupSizes type="1">0</msLocale:groupSizes>
       <msLocale:currencyGroupSizes type="0">3</msLocale:currencyGroupSizes>
-      <msLocale:nativeDigits type="0">០</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="1">១</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="2">២</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="3">៣</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="4">៤</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="5">៥</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="6">៦</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="7">៧</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="8">៨</msLocale:nativeDigits>
-      <msLocale:nativeDigits type="9">៩</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="0">꩐</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="1">꩑</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="2">꩒</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="3">꩓</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="4">꩔</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="5">꩕</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="6">꩖</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="7">꩗</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="8">꩘</msLocale:nativeDigits>
+      <msLocale:nativeDigits type="9">꩙</msLocale:nativeDigits>
       <msLocale:digitSubstitution type="nativeNational" />
     </special>
     <currencies>
