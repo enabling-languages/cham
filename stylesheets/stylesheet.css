@@ -483,6 +483,11 @@ header h1 {
   letter-spacing: -1px;
 }
 
+header h1 a, header h1 a:link, header h1 a:visited, header h1 a:hover, header h1 a:active {
+  color: white;
+  text-decoration: none;
+}
+
 header h2 {
   width: 540px;
   margin-top: 0;
