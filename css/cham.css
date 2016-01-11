@@ -1,7 +1,0 @@
-@import url("http://orfonts.appspot.com/css/Cham.css");
-:lang(cjm-Cham), .eCham, .ChamChar {
-    font-family: 'Noto Sans Cham','Noto Sans Cham Alt','Noto Sans';
-}
-:lang(cja-Cham), .wCham {
-    font-family: 'Cham OI_Tangin';
-}
